@@ -1,0 +1,4 @@
+[{:db/id #db/id [:db.part/user -1] :entity/name "Name1" :entity/value "1"}
+ {:db/id #db/id [:db.part/user -2] :entity/name "Name2" :entity/parent #db/id [:db.part/user -1]}
+ {:db/id #db/id [:db.part/user -3] :entity/name "Name3" :entity/parent #db/id [:db.part/user -2] :entity/value "2"}
+ {:db/id #db/id [:db.part/user -4] :entity/name "Name4" :entity/parent #db/id [:db.part/user -3]}]
